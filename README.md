@@ -1,4 +1,4 @@
-# Lab2: Cron jobs + bash scripts + curl + jq + nginx
+# Лаб1. Скрипт запроса погоды
 
 ## Было сделано
 
@@ -11,8 +11,8 @@
 
 **Cron jobs**
 
-![alt text](image0.png)
+![alt text](screenshots/image0.png)
 
 **Замененная страница по умолчанию nginx**
 
-![alt text](image1.png)
+![alt text](screenshots/image1.png)
