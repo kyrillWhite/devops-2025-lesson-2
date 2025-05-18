@@ -1,0 +1,17 @@
+/home/user/lessons/2/weather.sh: line 26: syntax error near unexpected token `<'
+/home/user/lessons/2/weather.sh: line 26: `read -r VAR1 VAR2 < <'
+/home/user/lessons/2/weather.sh: line 15: syntax error near unexpected token `<'
+/home/user/lessons/2/weather.sh: line 15: `read -r TEMP HUMID < < (curl -s https://wttr.in/${CITY}?format=j1 | \'
+/home/user/lessons/2/weather.sh: line 15: syntax error near unexpected token `<'
+/home/user/lessons/2/weather.sh: line 15: `read -r TEMP HUMID < < (curl -s https://wttr.in/${CITY}?format=j1 | \'
+/home/user/lessons/2/weather.sh: line 15: syntax error near unexpected token `<'
+/home/user/lessons/2/weather.sh: line 15: `read -r TEMP HUMID < < (curl -s https://wttr.in/${CITY}?format=j1 | \'
+/home/user/lessons/2/weather.sh: line 15: read: `TEMP HUMID': not a valid identifier
+jq: error: syntax error, unexpected INVALID_CHARACTER (Unix shell quoting issues?) at <top-level>, line 1:
+.["current_condition"][0] | \(.temp_C) \(.humidity)                            
+jq: 1 compile error
+/home/user/lessons/2/weather.sh: line 18: syntax error near unexpected token `)'
+/home/user/lessons/2/weather.sh: line 18: `te)'
+/home/user/lessons/2/weather.sh: line 17: Humidity:: command not found
+/home/user/lessons/2/weather.sh: line 18: syntax error near unexpected token `newline'
+/home/user/lessons/2/weather.sh: line 18: `      <br />'
